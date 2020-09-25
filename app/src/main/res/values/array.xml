@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner">
+        <item>의료DB실무</item>
+        <item>창의적의료IT기기</item>
+        <item>IT제품개발</item>
+        <item>소프트웨어공학</item>
+        <item>의료전문가시스템</item>
+        <item>임상데이터마이닝</item>
+    </string-array>
+</resources>

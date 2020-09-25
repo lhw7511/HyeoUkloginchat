@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageButton
+       android:outlineSpotShadowColor="@android:color/holo_blue_light"
+        android:id="@+id/homepage"
+        android:src="@drawable/ic_homepage"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/schedule"
+        android:layout_toRightOf="@+id/homepage"
+        android:src="@drawable/ic_schedule"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+
+    android:id="@+id/account"
+    android:layout_toRightOf="@+id/schedule"
+    android:src="@drawable/ic_account"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <ImageButton
+
+        android:id="@+id/logout"
+        android:layout_toRightOf="@+id/account"
+        android:src="@drawable/ic_logout"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+         android:layout_marginTop="90dp"
+        android:id="@+id/boardex_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/homefragment_floatingbutton"
+        android:src="@drawable/pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

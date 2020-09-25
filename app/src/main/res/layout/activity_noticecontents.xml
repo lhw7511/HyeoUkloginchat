@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noticecontents">
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="50dp"
+    android:id="@+id/notice_username"
+    android:textSize="20sp"
+    android:textColor="@android:color/black"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:id="@+id/notice_time"
+        android:textSize="16sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/notice_title"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/notice_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/notice_contents"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

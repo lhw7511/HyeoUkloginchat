@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hyeoukloginchat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".lecturewrite"></activity>
+        <activity
+            android:name=".freeboardcontents"
+            android:theme="@style/ToolTheme"></activity>
+        <activity
+            android:name=".Freeboard_write"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".lostboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".clubboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".fourboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".threeboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".twoboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".oneboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".freeboard"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".Major"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".Schedule"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".noticecontents"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".boardwriteex"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".account"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".chat.groupmessage"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".loginmainfragment.selectpeople"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".chat.message"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".signupfinish"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".loginmain"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".signup"
+            android:theme="@style/ToolTheme" />
+        <activity
+            android:name=".login"
+            android:theme="@style/ToolTheme" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".cloudmessage.firebasecloudmessagingservice">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGEING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".cloudmessage.firebaseinstanceidservice">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

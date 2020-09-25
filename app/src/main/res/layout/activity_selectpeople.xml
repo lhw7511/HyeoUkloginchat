@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".loginmainfragment.selectpeople">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectpeople_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_light"
+         android:layout_centerInParent="true"
+        android:id="@+id/selectpeople_button"
+        android:layout_width="match_parent"
+        android:text="채팅방 만들기"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

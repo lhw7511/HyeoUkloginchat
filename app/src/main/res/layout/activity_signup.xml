@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".signup">
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <TextView
+      android:layout_gravity="center_horizontal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:textSize="30dp"
+      android:textColor="@android:color/holo_blue_light"
+      android:text="회원가입" />
+  </LinearLayout>
+
+
+
+       <ImageView
+           android:id="@+id/signup_imageview_profile"
+           android:layout_width="120dp"
+           android:layout_height="120dp"
+
+           android:src="@drawable/signupprofile" />
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:text="프로필 사진을 추가해주세요."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/signup_edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="이름"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/signup_edittext_email"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="이메일"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/signup_edittext_password"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="비밀번호"
+        android:inputType="textPassword" />
+
+    <Button
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/signup_button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="회원가입" />
+</LinearLayout>
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include
+        layout="@layout/view_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

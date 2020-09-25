@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Toolcolor</item>
+        <item name="colorPrimaryDark">@color/Topcolor</item>
+        <item name="colorAccent">@color/Toolcolor</item>
+    </style>
+    <style name="ToolTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Toolcolor</item>
+        <item name="colorPrimaryDark">@color/Topcolor</item>
+        <item name="colorAccent">@color/Toolcolor</item>
+        <!-- No Title Bar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

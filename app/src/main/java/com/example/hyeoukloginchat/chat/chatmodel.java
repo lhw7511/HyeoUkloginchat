@@ -1,0 +1,18 @@
+package com.example.hyeoukloginchat.chat;
+
+import org.w3c.dom.Comment;
+
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class chatmodel {
+   public Map<String,Boolean> users = new HashMap<>(); //채팅방의 유저들 나와 상대방
+    public Map<String, Comment> comments = new HashMap<>();//채팅방의 내용
+   public  static  class Comment{
+       String uid;
+      public String message;
+      public Object timestamp;
+      public Map<String,Object> readUsers = new HashMap<>();
+   }
+}

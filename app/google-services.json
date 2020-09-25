@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "177020195198",
+    "firebase_url": "https://hyeoukloginchat.firebaseio.com",
+    "project_id": "hyeoukloginchat",
+    "storage_bucket": "hyeoukloginchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177020195198:android:3707444f8cef712d",
+        "android_client_info": {
+          "package_name": "com.example.hyeoukloginchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177020195198-d0je605gpscd4hkv6al7qa4qm1f8n1k7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hyeoukloginchat",
+            "certificate_hash": "e84dde141087f87ad85d2df6ba607ecabd71b190"
+          }
+        },
+        {
+          "client_id": "177020195198-j16s1cn41k34g5kklpv7c57c6hgsfql6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZgfpf8mrBvXwZBp0gJZqoWo-KqgLbN3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177020195198-j16s1cn41k34g5kklpv7c57c6hgsfql6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp">
+               <LinearLayout
+
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+                   <LinearLayout
+                       android:orientation="vertical"
+                       android:layout_weight="7"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent">
+                       <TextView
+                           android:layout_marginLeft="5dp"
+                           android:layout_marginTop="5dp"
+                           android:id="@+id/itemboardlist_title"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="제목"
+                           android:textColor="@android:color/black"
+                           android:textSize="20dp" />
+                       <TextView
+                           android:layout_marginLeft="5dp"
+                           android:layout_marginTop= "15dp"
+                           android:id="@+id/itemboardlist_name"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="작성자"
+                           android:textSize="13dp" />
+                       <TextView
+                           android:layout_marginLeft="5dp"
+                           android:layout_marginTop="20dp"
+                           android:id="@+id/itemboardlist_time"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="시간"
+                           android:textSize="13dp" />
+                   </LinearLayout>
+
+
+                   <LinearLayout
+                       android:gravity="center"
+                       android:layout_weight="3"
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent">
+                       <ImageView
+                           android:src="@drawable/noimage"
+                           android:id="@+id/itemboardlist_image"
+                           android:layout_width="80dp"
+                           android:layout_height="80dp" />
+                   </LinearLayout>
+               </LinearLayout>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

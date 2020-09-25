@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/freeboardwrite_name"
+                android:hint="작성자"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/freeboardwrite_title"
+                android:hint="제목"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@android:color/holo_blue_light"
+                android:id="@+id/freeboardwrite_image"
+                android:text="사진첨부"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/freeboardwrite_imageview"
+                android:src="@drawable/noimage"
+                android:layout_width="match_parent"
+                android:layout_height="202dp" />
+
+
+            <EditText
+                android:id="@+id/freeboardwrite_contents"
+                android:gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="내용"
+                android:lines="15"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/freeboardwrite_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:text="게시" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <include
+        layout="@layout/view_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</RelativeLayout>

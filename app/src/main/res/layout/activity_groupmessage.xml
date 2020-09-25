@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:layout_height="match_parent"
+    tools:context=".chat.groupmessage">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/groupmessage_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="685dp"></androidx.recyclerview.widget.RecyclerView>
+    <EditText
+        android:layout_toLeftOf="@+id/groupmessage_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/groupmessage_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/groupmessage_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전송"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
